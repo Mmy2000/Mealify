@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.header .caption{
+    background-color: #eee;
+    flex-basis: 50%;
+}
+.header .image{
+    background-color: tomato;
+    flex-basis: 50%;
+    padding-top: 150px;
+    text-align: center;
+}
+.header .image img{
+    width: 70%;
+}
