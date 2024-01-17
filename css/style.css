@@ -63,6 +63,7 @@ a {
     color: #8c8c8c;
     font-weight: bold;
     transition: color 0.5s;
+
 }
 
 .nav .nav-items ul .nav-item:hover .nav-item-cover , .nav .nav-items ul .nav-item li a:hover {
