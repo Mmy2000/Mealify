@@ -31,18 +31,34 @@ a {
     box-shadow: 0px 0px 21px 0px #0003;
     z-index: 999;
 }
-
+.nav .name h1{
+    font-size: 30px;
+}
 .nav .name a {
     color: black;
 }
 
 .nav .nav-items {
     padding: 10px 0;
-    color: black;
+    
 }
-
-.nav .nav-items a {
-    color: black;
+.nav .nav-items .nav-item{
+    position: relative;
+    overflow: hidden;
+}
+.nav .nav-items .nav-item-cover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(101%);
+    transition: transform 0.5s ease;
+    border-bottom:3px #ce1212 solid ;
+}
+.nav .nav-items ul .nav-item:hover .nav-item-cover , .nav .nav-items ul .nav-item li a:hover {
+    transform: translateX(0%);
+    color: #000000;
+    cursor: pointer;
 }
 
 .nav .nav-items ul {
@@ -51,6 +67,11 @@ a {
 
 .nav .nav-items ul li {
     padding: 5px 0;
+}
+.nav .nav-items ul li a{
+    color: #4f4f5a;
+    font-weight: lighter;
+    transition: color 0.5s;
 }
 
 .nav .icon-dark i {
@@ -103,13 +124,14 @@ a {
     justify-content: center;
 }
 
-.header .caption .button-1 {
+.header .caption .buttons .button-1 {
     padding: 0.625rem 1.5625rem;
     border-radius: 0px 100vh 100vh;
     background-color: rgb(206, 18, 18);
     border: none;
     font-size: 0.9375rem;
     color: white;
+    transition: 0.5s;
 }
 
 .header .caption .button-2 {
@@ -135,7 +157,9 @@ a {
     background-color: #e91212;
     cursor: pointer;
 }
-
+.header .caption .buttons a{
+    transition: 0.5s;
+}
 .header .caption .buttons a:hover {
     color: #e91212;
     cursor: pointer;
