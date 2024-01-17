@@ -60,7 +60,7 @@ a {
     border-bottom:3px #ce1212 solid ;
 }
 .nav .nav-items ul li a{
-    color: #4f4f5a;
+    color: #8c8c8c;
     font-weight: bold;
     transition: color 0.5s;
 }
@@ -115,11 +115,14 @@ a {
     font-size: 4.0625rem;
     color: var(--main-font-color);
 }
-
+.logo::after {
+    content: ".";
+    color: #e91212;
+}
 .header .caption p {
     font-family: var(--secend-font);
     color: #4f4f5a;
-    padding-bottom: 20px;
+    padding:20px 0;
 }
 
 .buttons {
