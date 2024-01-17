@@ -55,6 +55,12 @@ a {
     transition: transform 0.5s ease;
     border-bottom:3px #ce1212 solid ;
 }
+.nav .nav-items ul li a{
+    color: #4f4f5a;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
 .nav .nav-items ul .nav-item:hover .nav-item-cover , .nav .nav-items ul .nav-item li a:hover {
     transform: translateX(0%);
     color: #000000;
@@ -68,11 +74,7 @@ a {
 .nav .nav-items ul li {
     padding: 5px 0;
 }
-.nav .nav-items ul li a{
-    color: #4f4f5a;
-    font-weight: lighter;
-    transition: color 0.5s;
-}
+
 
 .nav .icon-dark i {
     font-size: 30px;
