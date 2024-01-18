@@ -332,6 +332,44 @@ a {
     font-family: var(--secend-font);
     color: #8c8c8c;
 }
+.contact .container .address{
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+}
+.contact .container .address .adress{
+    padding: 20px 20px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+}
+.contact .adress .icon{
+    background-color: #b30f0f;
+    border: none;
+    border-radius: 50%;
+}
+.contact .adress .icon i{
+    font-size: 25px;
+    padding: 10px 10px;
+    color: white;
+}
+
+.contact .adress .info{
+    text-align: start;
+    padding: 0 20px;
+}
+.contact .address .info h3{
+    color: #7d7d7d;
+    font-size: 1.25rem;
+    font-family: var(--secend-font);
+}
+.contact .address .info p{
+    font-family: var(--secend-font);
+    padding-top: 5px;
+}
+
 
 
 @media (min-width:825px) {
