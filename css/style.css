@@ -13,6 +13,9 @@
 a {
     text-decoration: none;
 }
+body{
+    background-color: #f5f2f2;
+}
 
 .container {
     width: 90%;
@@ -312,12 +315,9 @@ a {
     background-color: tan;
 }
 .contact{
-    background-color: tomato;
     text-align: center;
 }
-.contact .container{
-    background-color: tan;
-}
+
 .contact .main-paragraph {
     font-family: var(--mian-font);
     font-size: 3.125rem;
@@ -369,8 +369,71 @@ a {
     font-family: var(--secend-font);
     padding-top: 5px;
 }
+.contact .container .full-name .name {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    padding-right: 5px;
+}
 
+.contact .container .full-name .email {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
+    padding-left: 5px;
+}
 
+.contact .container .full-name input {
+    width: 100%;
+    height: 50px;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+
+.contact .container .subject input {
+    width: 100%;
+    height: 50px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+
+.contact .container .subject {
+    padding-bottom: 10px;
+}
+
+.contact .container .message {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.contact .container .message textarea {
+    width: 100%;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+}
+
+.contact .container button {
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: none;
+    background-color: #750e22;
+    font-size: 14px;
+    border-radius: 100vh;
+    transition: 0.5s;
+    color: white;
+}
+
+.contact .container button:hover {
+    background-color: #ff0033;
+    cursor: pointer;
+    color: white;
+}
+.form{
+    background-color: white;
+    padding: 10px 20px;
+}
 
 @media (min-width:825px) {
     .nav {
@@ -441,6 +504,15 @@ a {
     .gellary .container .items .gellary-item{
         flex-basis: calc(100% / 3 - 20px);
         margin: 10px 10px;
+    }
+    .contact .container .address{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    .contact .container .adress{
+        flex-basis: calc(100% / 2 - 10px);
+        
     }
     
 
