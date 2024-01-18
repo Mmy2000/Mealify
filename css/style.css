@@ -418,7 +418,7 @@ body{
     padding: 15px 20px;
     margin: 20px 0;
     border: none;
-    background-color: #750e22;
+    background-color: #b30f0f;
     font-size: 14px;
     border-radius: 100vh;
     transition: 0.5s;
@@ -426,7 +426,7 @@ body{
 }
 
 .contact .container button:hover {
-    background-color: #ff0033;
+    background-color: #ce1212;
     cursor: pointer;
     color: white;
 }
