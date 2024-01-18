@@ -434,7 +434,89 @@ body{
     background-color: white;
     padding: 10px 20px;
 }
-
+.footer{
+    background-color: tomato;
+}
+.footer .container{
+    background-color: tan;
+    
+}
+.footer .about{
+    background-color: yellow;
+    display: flex;
+    flex-flow: column wrap;
+}
+.footer .container .about-header{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px 20px;
+}
+.footer .container  img{
+    width: 40px;
+}
+.footer .container h2{
+    font-family: var(--secend-font);
+    padding-left: 10px;
+    font-size: 30px;
+}
+.footer .container #p{
+    font-family: var(--secend-font);
+    padding: 0 20px;
+}
+.footer .container  #h3{
+    font-family: var(--secend-font);
+    text-align: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd6;
+}
+.footer .container .icons{
+    padding: 20px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .container .icons i{
+    font-size: 1.5rem;
+}
+.footer .container .footer-form{
+    display: flex;
+    background-color: rgb(42, 165, 46);
+}
+.footer .container .newsletter{
+    background-color: blue;
+    padding: 0 20px;
+}
+.footer .container .newsletter h3{
+    font-family: var(--secend-font);
+}
+.footer .container .newsletter p{
+    font-family: var(--secend-font);
+    padding: 10px 0;
+}
+.footer .container .footer-form .email{
+    width: 70%;
+}
+.footer .container .footer-form input{
+    width: 100%;
+    height: 40px;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.footer .container .footer-form button{
+    padding: 0.625rem;
+    background-color: #b30f0f;
+    border: none;
+    transition: 0.5s;
+    color: white;
+    height: 40px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.footer .container .footer-form button i{
+    padding-right: 5px;
+}
 @media (min-width:825px) {
     .nav {
         display: flex;
