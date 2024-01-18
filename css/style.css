@@ -517,6 +517,15 @@ body{
 .footer .container .footer-form button i{
     padding-right: 5px;
 }
+.footer .container .quick-link{
+    background-color: violet;
+    
+}
+.footer .container .quick-link .row{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+}
 @media (min-width:825px) {
     .nav {
         display: flex;
