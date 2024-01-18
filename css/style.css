@@ -16,7 +16,7 @@ a {
 
 .container {
     width: 90%;
-    margin: 40px auto;background-color: tan;
+    margin: 40px auto;
 }
 
 .nav {
@@ -175,16 +175,15 @@ a {
     cursor: pointer;
 }
 .chefs{
-    background-color: tomato;
     margin-top: 50px;
     text-align: center;
 }
 .chefs .item{
-    background-color: aqua;
     border-radius: 10px;
     width: calc(100% / 1 - 40px);
     margin: 0 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 43px -12px rgba(0,0,0,0.75);
 }
 .chefs .item img{
     width: 100%;
@@ -203,7 +202,23 @@ a {
     color: #7f7f90;
     padding-top: 20px;
 }
-
+.chefs .items .item h2{
+    padding: 10px;
+    font-family: var(--secend-font);
+}
+.chefs .items .item p{
+    font-family: var(--secend-font);
+    padding: 20px 15px;
+    font-size: 0.9375rem;
+    font-style: italic;
+    color: #8c8c8c;
+}
+.chefs .items .item span{
+    font-family: var(--secend-font);
+    font-size: 0.9375rem;
+    font-style: italic;
+    color: #8c8c8c;
+}
 @media (min-width:825px) {
     .nav {
         display: flex;
@@ -258,4 +273,10 @@ a {
     .buttons {
         justify-content: flex-start;
     }
+    .chefs .container .items{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
 }
