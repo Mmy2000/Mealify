@@ -16,7 +16,7 @@ a {
 
 .container {
     width: 90%;
-    margin: 0 auto;
+    margin: 40px auto;background-color: tan;
 }
 
 .nav {
@@ -189,6 +189,19 @@ a {
 .chefs .item img{
     width: 100%;
     display: block;
+}
+.chefs .main-paragraph{
+    font-family: var(--mian-font);
+    font-size: 3.125rem;
+    padding-bottom: 20px;
+}
+.chefs p span{
+    color: #ce1212;
+}
+.chefs .span{
+    font-family: var(--secend-font);
+    color: #7f7f90;
+    padding-top: 20px;
 }
 
 @media (min-width:825px) {
