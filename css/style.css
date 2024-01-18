@@ -184,6 +184,7 @@ a {
     margin: 0 20px;
     overflow: hidden;
     box-shadow: 0px 0px 43px -12px rgba(0,0,0,0.75);
+    transition: transform 0.5s;
 }
 .chefs .item img{
     width: 100%;
@@ -192,7 +193,7 @@ a {
 .chefs .main-paragraph{
     font-family: var(--mian-font);
     font-size: 3.125rem;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 .chefs p span{
     color: #ce1212;
@@ -219,6 +220,37 @@ a {
     font-style: italic;
     color: #8c8c8c;
 }
+.chefs .items .item:hover{
+    transform: scale(1.06,1.06) ;
+    
+}
+.chefs .items .item:hover .icons{
+    opacity: 1; 
+}
+.chefs .items .item .icons{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(238, 238, 238 , 0.3);
+    top: 30px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    transition-delay: 1s;
+    border-radius: 10px;
+}
+.chefs .items .item .icons i{
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.chefs .items .item .icons a{
+    color: #656262;
+}
+.chefs .items .item .icons a:hover{
+    color: #000000;
+}
+
+
 @media (min-width:825px) {
     .nav {
         display: flex;
