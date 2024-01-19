@@ -543,6 +543,14 @@ body{
     
     transform: translateX(10%);
 }
+.footer .container .touch{
+    padding-top: 10px;
+}
+.footer .container .touch i{
+    font-size: 20px;
+    color: #b30f0f;
+    padding-right: 5px;
+}
 @media (min-width:825px) {
     .nav {
         display: flex;
