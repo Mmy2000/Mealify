@@ -525,13 +525,15 @@ body{
     background-color: cornflowerblue;
     display: flex;
     justify-content: space-around;
-    
+    padding: 10px 0;
 }
 .footer .container .quick-link .row li{
     background-color: coral;
     list-style: none;
 }
-
+.footer .container .quick-link .row i{
+    padding-right:5px ;
+}
 @media (min-width:825px) {
     .nav {
         display: flex;
