@@ -530,9 +530,18 @@ body{
 .footer .container .quick-link .row li{
     background-color: coral;
     list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.5s;
 }
 .footer .container .quick-link .row i{
     padding-right:5px ;
+}
+.footer .container .quick-link .row li:hover{
+    padding-left: 5px ;
+    padding-right: 10px;
+    
+    transform: translateX(10%);
 }
 @media (min-width:825px) {
     .nav {
