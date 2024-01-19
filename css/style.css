@@ -435,14 +435,12 @@ body{
     padding: 10px 20px;
 }
 .footer{
-    background-color: tomato;
+    background-image: url(../img/textured-metal-background.jpg);
+    color: white;
+    background-size: contain;
 }
-.footer .container{
-    background-color: tan;
-    
-}
+
 .footer .about{
-    background-color: yellow;
     display: flex;
     flex-flow: column wrap;
 }
@@ -480,10 +478,8 @@ body{
 }
 .footer .container .footer-form{
     display: flex;
-    background-color: rgb(42, 165, 46);
 }
 .footer .container .newsletter{
-    background-color: blue;
     padding: 0 20px;
 }
 .footer .container .newsletter h3{
@@ -517,18 +513,17 @@ body{
 .footer .container .footer-form button i{
     padding-right: 5px;
 }
-.footer .container .quick-link{
-    background-color: violet;
-    
-}
+
 .footer .container .quick-link .row{
-    background-color: cornflowerblue;
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
 }
+.footer .container .quick-link{
+    padding-top: 10px;
+}
 .footer .container .quick-link .row li{
-    background-color: coral;
+    
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -540,7 +535,7 @@ body{
 .footer .container .quick-link .row li:hover{
     padding-left: 5px ;
     padding-right: 10px;
-    
+    background-color: rgb(71, 70, 70);
     transform: translateX(10%);
 }
 .footer .container .touch{
