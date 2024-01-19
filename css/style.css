@@ -541,6 +541,14 @@ body{
 .footer .container .touch{
     padding-top: 10px;
 }
+.footer .container .touch p{
+    font-family: var(--secend-font);
+    padding: 5px;
+}
+.footer .container .touch h3{
+    font-family: var(--secend-font);
+    padding-bottom: 10px;
+}
 .footer .container .touch i{
     font-size: 20px;
     color: #b30f0f;
@@ -625,6 +633,24 @@ body{
         flex-basis: calc(100% / 2 - 10px);
         
     }
-    
-
+    .footer .container{
+        display: flex;
+    }
+    .footer .container .touch{
+        padding-top: 20px;
+        
+    }
+    .footer .container .newsletter{
+        padding-top: 20px;
+    }
+    .footer .container .about .icons{
+        padding: 10px;
+    }
+    .footer .container .about .icons i{
+        padding: 0;
+    }
+    .footer .container .newsletter{
+        padding-left: 20px;
+        padding-right: 3px;
+    }
 }
