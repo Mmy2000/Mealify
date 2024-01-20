@@ -600,11 +600,23 @@ body {
     grid-template-rows: 1fr auto;
     margin-bottom: 10px;
     break-inside: avoid;
+    position: relative;
 }
 
 .gellary .container .gellary-item img {
     max-width: 100%;
     display: block;
+}
+.gellary .container .gellary-item .caption{
+    background-color: turquoise;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width:825px) {
