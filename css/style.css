@@ -601,14 +601,16 @@ body {
     margin-bottom: 10px;
     break-inside: avoid;
     position: relative;
+    overflow: hidden;
 }
 
 .gellary .container .gellary-item img {
     max-width: 100%;
     display: block;
+    transition: transform 0.5s;
 }
 .gellary .container .gellary-item .caption{
-    background-color: turquoise;
+    background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -617,8 +619,26 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    transform: translateY(100%);
+    transition: transform 0.5s;
 }
-
+.gellary .container .gellary-item .caption .center h2{
+    font-family: var(--secend-font);
+    color: white;
+}
+.gellary .container .gellary-item .caption .center{
+    padding: 0 10px;
+}
+.gellary .container .gellary-item .caption p{
+    font-family: var(--secend-font);
+    color: white;
+}
+.gellary .container .gellary-item:hover .caption{
+    transform: translateY(0%);
+}
+.gellary .container .gellary-item:hover img{
+    transform: scale(1.1,1.1);
+}
 @media (min-width:825px) {
     .nav {
         display: flex;
