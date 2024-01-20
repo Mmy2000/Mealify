@@ -768,7 +768,6 @@ body {
 
     .footer .container .about .icons {
         padding: 10px;
-        justify-content: flex-start;
         justify-content: center;
     }
 
@@ -784,6 +783,14 @@ body {
     .gellary .container .gellary-items {
         column-count: 3;
         column-gap: 30px;
+    }
+    .footer .container .quick-link .row{
+        justify-content: flex-start;
+
+    }
+    .footer .container .quick-link .row li{
+        margin-right: 50px;
+        padding-right: 100px;
     }
 
 }
