@@ -13,7 +13,8 @@
 a {
     text-decoration: none;
 }
-body{
+
+body {
     background-color: #f5f2f2;
 }
 
@@ -198,7 +199,7 @@ body{
     width: calc(100% / 1 - 40px);
     margin: 40px 20px;
     overflow: hidden;
-    box-shadow:3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s;
 }
 
@@ -314,7 +315,8 @@ body{
     padding: 50px 0;
     background-color: tan;
 }
-.contact{
+
+.contact {
     text-align: center;
 }
 
@@ -332,43 +334,50 @@ body{
     font-family: var(--secend-font);
     color: #8c8c8c;
 }
-.contact .container .address{
+
+.contact .container .address {
     display: flex;
     flex-flow: column wrap;
-    
-    
+
+
 }
-.contact .container .address .adress{
+
+.contact .container .address .adress {
     padding: 20px 20px;
     margin: 10px 0;
     display: flex;
     align-items: center;
     background-color: #eee;
 }
-.contact .adress .icon{
+
+.contact .adress .icon {
     background-color: #b30f0f;
     border: none;
     border-radius: 50%;
 }
-.contact .adress .icon i{
+
+.contact .adress .icon i {
     font-size: 25px;
     padding: 10px 10px;
     color: white;
 }
 
-.contact .adress .info{
+.contact .adress .info {
     text-align: start;
     padding: 0 20px;
 }
-.contact .address .info h3{
+
+.contact .address .info h3 {
     color: #7d7d7d;
     font-size: 1.25rem;
     font-family: var(--secend-font);
 }
-.contact .address .info p{
+
+.contact .address .info p {
     font-family: var(--secend-font);
     padding-top: 5px;
 }
+
 .contact .container .full-name .name {
     float: left;
     width: 50%;
@@ -430,69 +439,84 @@ body{
     cursor: pointer;
     color: white;
 }
-.form{
+
+.form {
     background-color: white;
     padding: 10px 20px;
 }
-.footer{
+
+.footer {
     background-image: url(../img/textured-metal-background.jpg);
     color: white;
     background-size: contain;
 }
 
-.footer .about{
+.footer .about {
     display: flex;
     flex-flow: column wrap;
 }
-.footer .container .about-header{
+
+.footer .container .about-header {
     display: flex;
     flex-flow: row wrap;
     padding: 20px 20px;
 }
-.footer .container  img{
+
+.footer .container img {
     width: 40px;
 }
-.footer .container h2{
+
+.footer .container h2 {
     font-family: var(--secend-font);
     padding-left: 10px;
     font-size: 30px;
 }
-.footer .container #p{
+
+.footer .container #p {
     font-family: var(--secend-font);
     padding: 0 20px;
 }
-.footer .container  #h3{
+
+.footer .container #h3 {
     font-family: var(--secend-font);
     text-align: center;
     padding: 10px 20px;
     border-bottom: 2px solid #ddd6;
 }
-.footer .container .icons{
+
+.footer .container .icons {
     padding: 20px 20px;
     text-align: center;
     display: flex;
     justify-content: space-around;
 }
-.footer .container .icons i{
+
+.footer .container .icons i {
     font-size: 1.5rem;
 }
-.footer .container .footer-form{
+
+.footer .container .footer-form {
     display: flex;
 }
-.footer .container .newsletter{
+
+.footer .container .newsletter {
     padding: 0 20px;
 }
-.footer .container .newsletter h3{
+
+.footer .container .newsletter h3 {
     font-family: var(--secend-font);
 }
-.footer .container .newsletter p{
+
+.footer .container .newsletter p {
     font-family: var(--secend-font);
     padding: 10px 0;
 }
-.footer .container .footer-form .email{
+
+.footer .container .footer-form .email {
     width: 70%;
 }
-.footer .container .footer-form input{
+
+.footer .container .footer-form input {
     width: 100%;
     height: 40px;
     border-radius: 1px;
@@ -500,7 +524,8 @@ body{
     font-size: 14px;
     padding: 4px 8px;
 }
-.footer .container .footer-form button{
+
+.footer .container .footer-form button {
     padding: 0.625rem;
     background-color: #b30f0f;
     border: none;
@@ -510,50 +535,78 @@ body{
     margin-left: 5px;
     font-size: 16px;
 }
-.footer .container .footer-form button i{
+
+.footer .container .footer-form button i {
     padding-right: 5px;
 }
 
-.footer .container .quick-link .row{
+.footer .container .quick-link .row {
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
 }
-.footer .container .quick-link{
+
+.footer .container .quick-link {
     padding-top: 10px;
 }
-.footer .container .quick-link .row li{
-    
+
+.footer .container .quick-link .row li {
+
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
     transition: all 0.5s;
 }
-.footer .container .quick-link .row i{
-    padding-right:5px ;
+
+.footer .container .quick-link .row i {
+    padding-right: 5px;
 }
-.footer .container .quick-link .row li:hover{
-    padding-left: 5px ;
+
+.footer .container .quick-link .row li:hover {
+    padding-left: 5px;
     padding-right: 10px;
     background-color: rgb(71, 70, 70);
     transform: translateX(10%);
 }
-.footer .container .touch{
+
+.footer .container .touch {
     padding-top: 10px;
 }
-.footer .container .touch p{
+
+.footer .container .touch p {
     font-family: var(--secend-font);
     padding: 5px;
 }
-.footer .container .touch h3{
+
+.footer .container .touch h3 {
     font-family: var(--secend-font);
     padding-bottom: 10px;
 }
-.footer .container .touch i{
+
+.footer .container .touch i {
     font-size: 20px;
     color: #b30f0f;
     padding-right: 5px;
 }
+
+.gellary .container .gellary-items {
+    column-count: 1;
+    column-gap: 10px;
+}
+
+.gellary .container .gellary-item {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+}
+
+.gellary .container .gellary-item img {
+    max-width: 100%;
+    display: block;
+}
+
 @media (min-width:825px) {
     .nav {
         display: flex;
@@ -620,40 +673,54 @@ body{
         flex-flow: row;
         flex-wrap: wrap;
     }
-    .gellary .container .items .gellary-item{
+
+    .gellary .container .items .gellary-item {
         flex-basis: calc(100% / 3 - 20px);
         margin: 10px 10px;
     }
-    .contact .container .address{
+
+    .contact .container .address {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
     }
-    .contact .container .adress{
+
+    .contact .container .adress {
         flex-basis: calc(100% / 2 - 10px);
-        
+
     }
-    .footer .container{
+
+    .footer .container {
         display: flex;
         margin-bottom: 0;
     }
-    .footer .container .touch{
+
+    .footer .container .touch {
         padding-top: 20px;
-        
+
     }
-    .footer .container .newsletter{
+
+    .footer .container .newsletter {
         padding-top: 20px;
     }
-    .footer .container .about .icons{
+
+    .footer .container .about .icons {
         padding: 10px;
         justify-content: flex-start;
         justify-content: center;
     }
-    .footer .container .about .icons i{
+
+    .footer .container .about .icons i {
         padding: 10px 20px;
     }
-    .footer .container .newsletter{
+
+    .footer .container .newsletter {
         padding-left: 20px;
         padding-right: 3px;
     }
+    .gellary .container .gellary-items {
+    column-count: 3;
+    column-gap: 10px;
+}
+
 }
