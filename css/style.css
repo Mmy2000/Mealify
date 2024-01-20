@@ -635,6 +635,7 @@ body{
     }
     .footer .container{
         display: flex;
+        margin-bottom: 0;
     }
     .footer .container .touch{
         padding-top: 20px;
@@ -645,9 +646,11 @@ body{
     }
     .footer .container .about .icons{
         padding: 10px;
+        justify-content: flex-start;
+        justify-content: center;
     }
     .footer .container .about .icons i{
-        padding: 0;
+        padding: 10px 20px;
     }
     .footer .container .newsletter{
         padding-left: 20px;
