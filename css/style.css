@@ -3,7 +3,9 @@
     --secend-font: 'Open Sans', sans-ser;
     --main-font-color: #37373f;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
     margin: 0;
