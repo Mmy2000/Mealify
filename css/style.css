@@ -186,14 +186,19 @@ body {
 
 .header .caption .button-2 .icon i {
     padding: 10px 10px;
+    font-size: 20px;
 }
 
 .header .caption .button-2 .icon {
     display: flex;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     border: #ce1212 5px solid;
     background-color: white;
     margin-right: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .header .caption .buttons .button-1:hover {
